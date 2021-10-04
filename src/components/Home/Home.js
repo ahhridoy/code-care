@@ -4,13 +4,16 @@ import HomePart2 from "../HomePart2/HomePart2";
 import "./Home.css";
 
 const Home = () => {
+    // Home area
     return (
         <div>
             <div className="row home-row">
+                {/* Home image */}
                 <div className="col-md-6">
                     <img className="w-100" src={img} alt="" />
                 </div>
 
+                {/* Login area */}
                 <div className="col-md-6">
                     <div className="mt-5">
                         <input
@@ -34,6 +37,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            {/* Home part 2 */}
             <div>
                 <HomePart2></HomePart2>
             </div>

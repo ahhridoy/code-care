@@ -3,16 +3,22 @@ import img from "../../images/contact-us.png";
 
 const Contact = () => {
     return (
+        // Contacts area
         <div className="row">
             <div className="col-md-6 mt-5">
+                {/* Address */}
                 <div className="mt-5">
                     <h2 className="text-warning">Address</h2>
                     <h6>Banani 1213, Dhaka, Bangladesh</h6>
                 </div>
+
+                {/* Phone Number */}
                 <div className="mt-5">
                     <h2 className="text-warning">Phone</h2>
                     <h6>01318183476</h6>
                 </div>
+                
+                {/* Social Media Links */}
                 <div className="mt-5">
                     <h2 className="text-warning">Follow Us</h2>
                     <a href="https://facebook.com/juniorhridoyofficial">
@@ -25,6 +31,7 @@ const Contact = () => {
                 </div>
             </div>
 
+            {/* Contact Us Images */}
             <div className="col-md-6">
                 <img className="w-100" src={img} alt="" />
             </div>

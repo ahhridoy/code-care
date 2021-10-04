@@ -2,9 +2,11 @@ import React from "react";
 import { Card, Col } from "react-bootstrap";
 
 const Service = (props) => {
+    // Destructuring
     const { name, role, lesson, img } = props.service;
     return (
         <Col>
+        {/* Service cards */}
             <Card className="bg-light">
                 <Card.Body>
                     <Card.Title>

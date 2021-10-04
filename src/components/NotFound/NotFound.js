@@ -2,6 +2,7 @@ import React from 'react';
 import img from '../../images/error.png'
 
 const NotFound = () => {
+    // Not Found Area
     return (
         <div className="container">
             <img className="w-50 m-5" src={img} alt="" />

@@ -16,6 +16,7 @@ import Header from './components/Header/Header';
 function App() {
   return (
     <div className="App">
+      {/* All Router */}
       <Router>
         <Header></Header>
         <Switch>

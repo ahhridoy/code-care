@@ -2,9 +2,11 @@ import React from "react";
 import { Card, Col } from "react-bootstrap";
 
 const Language = (props) => {
+    // Destructuring
     const { name, role, lesson, img } = props.language;
     return (
         <Col>
+        {/* Home part 2 languages cards */}
             <Card className="bg-light">
                 <Card.Body>
                     <Card.Title>
