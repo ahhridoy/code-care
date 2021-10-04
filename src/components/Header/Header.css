@@ -1,0 +1,11 @@
+.header-div {
+    background-color: #015289;
+    padding: 20px;
+    margin: 10px;
+}
+.text {
+    text-decoration: none;
+}
+.text span:hover {
+    color: goldenrod;
+}

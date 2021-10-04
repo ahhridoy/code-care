@@ -1,0 +1,86 @@
+[
+    {
+       "id":1,
+       "name":"Html & Css",
+       "role":"Beginner Friendly",
+       "lesson":60,
+       "img":"https://www.pngitem.com/pimgs/m/23-237369_html5-and-css3-transparent-background-html-logo-hd.png"
+    },
+    {
+       "id":2,
+       "name":"Javascript",
+       "role":"Beginner Friendly",
+       "lesson":121,
+       "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
+    },
+    {
+       "id":3,
+       "name":"React JS",
+       "role":"Beginner Friendly",
+       "lesson":70,
+       "img":"https://res.cloudinary.com/practicaldev/image/fetch/s--54ca_F2q--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/1wwdyw5de8avrdkgtz5n.png"
+    },
+    {
+       "id":4,
+       "name":"Node JS",
+       "role":"Beginner Friendly",
+       "lesson":77,
+       "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png"
+    },
+    {
+       "id":5,
+       "name":"Express JS",
+       "role":"Beginner Friendly",
+       "lesson":61,
+       "img":"https://fungsitama.web.id/wp-content/uploads/2020/08/0_cQTv5n6xV7opBBIB.png"
+    },
+    {
+        "id":6,
+        "name":"MongoDB",
+        "role":"Beginner Friendly",
+        "lesson":70,
+        "img":"https://gocode.colorado.gov/wp-content/uploads/2020/11/MongoDB-sm-logo-500x400.gif"
+     },
+     {
+        "id":7,
+        "name":"Angular JS",
+        "role":"Beginner Friendly",
+        "lesson":70,
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png"
+     },
+     {
+        "id":8,
+        "name":"Python",
+        "role":"Beginner Friendly",
+        "lesson":130,
+        "img":"https://qph.fs.quoracdn.net/main-qimg-27d25d3fd343a3d2e4384c7f0eeaf785"
+     },
+     {
+        "id":9,
+        "name":"Django",
+        "role":"Beginner Friendly",
+        "lesson":83,
+        "img":"https://static.djangoproject.com/img/logos/django-logo-negative.png"
+     },
+     {
+        "id":10,
+        "name":"PHP",
+        "role":"Beginner Friendly",
+        "lesson":124,
+        "img":"https://image.flaticon.com/icons/png/512/919/919830.png"
+     },
+     {
+        "id":11,
+        "name":"Java",
+        "role":"Beginner Friendly",
+        "lesson":145,
+        "img":"https://logosvector.net/wp-content/uploads/2013/03/java-eps-vector-logo.png"
+     },
+     {
+        "id":12,
+        "name":"C",
+        "role":"Beginner Friendly",
+        "lesson":181,
+        "img":"https://i.pinimg.com/originals/6e/46/e7/6e46e7dbe2bb73dacc055e5dbd85c3ad.png"
+     }
+  ]

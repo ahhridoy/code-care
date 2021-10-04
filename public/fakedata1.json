@@ -1,0 +1,30 @@
+[
+    {
+       "id":1,
+       "name":"Javascript",
+       "role":"Beginner Friendly",
+       "lesson":121,
+       "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
+    },
+    {
+       "id":2,
+       "name":"Python",
+       "role":"Beginner Friendly",
+       "lesson":130,
+       "img":"https://qph.fs.quoracdn.net/main-qimg-27d25d3fd343a3d2e4384c7f0eeaf785"
+    },
+    {
+       "id":3,
+       "name":"Java",
+       "role":"Beginner Friendly",
+       "lesson":145,
+       "img":"https://logosvector.net/wp-content/uploads/2013/03/java-eps-vector-logo.png"
+    },
+    {
+      "id":4,
+      "name":"PHP",
+      "role":"Beginner Friendly",
+      "lesson":124,
+      "img":"https://image.flaticon.com/icons/png/512/919/919830.png"
+   }
+ ]
