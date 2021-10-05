@@ -1,9 +1,13 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { Card, Col } from "react-bootstrap";
 
 const Language = (props) => {
     // Destructuring
     const { name, role, lesson, img } = props.language;
+    // Font Awesome Icon
+    const icon = <FontAwesomeIcon icon={faArrowRight} />
     return (
         <Col>
         {/* Home part 2 languages cards */}
@@ -18,7 +22,7 @@ const Language = (props) => {
                     </Card.Text>
                 </Card.Body>
                 <Card.Img variant="top" className="w-50 mx-auto" src={img} />
-                <button className="btn btn-warning mt-3">Get Lesson</button>
+                <button className="btn btn-warning mt-3">Get Lesson {icon}</button>
             </Card>
         </Col>
     );

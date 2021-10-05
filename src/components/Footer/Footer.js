@@ -1,7 +1,14 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAddressBook, faShare, faCode, faCopyright } from '@fortawesome/free-solid-svg-icons';
 import "./Footer.css";
 
 const Footer = () => {
+    // Font Awesome Icon
+    const icon = <FontAwesomeIcon icon={faAddressBook} />
+    const icon2 = <FontAwesomeIcon icon={faShare} />
+    const icon3 = <FontAwesomeIcon icon={faCode} />
+    const icon4 = <FontAwesomeIcon icon={faCopyright} />
     return (
         // Footer Area
         <div className="footer-div">
@@ -9,13 +16,13 @@ const Footer = () => {
             <div className="row">
                 {/* Address */}
                 <div className="col-md-4">
-                    <p className="text-light">Address</p>
+                    <p className="text-light">{icon} Address</p>
                     <p className="text-light">Banani 1213, Dhaka, Bangladesh</p>
                 </div>
 
                 {/* Social Media Links */}
                 <div className="col-md-4">
-                    <p className="text-light">Follow Us</p>
+                    <p className="text-light">{icon2} Follow Us</p>
                     <a href="https://facebook.com/juniorhridoyofficial">
                         Facebook
                     </a>{" "}
@@ -27,12 +34,15 @@ const Footer = () => {
                 
                 {/* Programming Languages */}
                 <div className="col-md-4">
-                    <p className="text-light">Languages</p>
+                    <p className="text-light">{icon3} Languages</p>
                     <small className="text-light">Javascript</small> <br />
                     <small className="text-light">Python</small> <br />
                     <small className="text-light">Java</small> <br />
                     <small className="text-light">C</small> <br />
                 </div>
+            </div>
+            <div>
+                <small className="text-light">{icon4} 2021 All rights reserved.</small>
             </div>
         </div>
     );

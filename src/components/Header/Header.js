@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 
@@ -7,13 +9,15 @@ const Header = () => {
         fontWeight: 'bold',
         color: 'golden'
     }
+    // Font Awesome Icon
+    const icon = <FontAwesomeIcon icon={faCode} />
     return (
         // Header Area
         <div className="header-div">
             <div className="row">
                 {/* This sites name */}
                 <div className="col-md-4">
-                    <h1 className="text-warning fs-1 text">Code Care!</h1>
+                    <h1 className="text-warning fs-1 text">{icon} Code Care!</h1>
                 </div>
 
                 {/* Navigation bar */}

@@ -1,9 +1,13 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 import img from "../../images/code-care.jpg";
 import HomePart2 from "../HomePart2/HomePart2";
 import "./Home.css";
 
 const Home = () => {
+    // Font Awesome Icon
+    const icon = <FontAwesomeIcon icon={faSignInAlt} />
     // Home area
     return (
         <div>
@@ -28,7 +32,7 @@ const Home = () => {
                             placeholder="Enter your password"
                         />{" "}
                         <br /> <br />
-                        <button className="btn btn-warning fw-bold w-50">Log In</button>{" "}
+                        <button className="btn btn-warning fw-bold w-50">Log In {icon}</button>{" "}
                         <br /> <br />
                         <p className="text-dark">
                             Or, Create Account{" "}
