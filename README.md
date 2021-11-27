@@ -1,8 +1,9 @@
 # Code Care!
 
-This is a Educational purpose website https://the-codecare.netlify.app/
+This is a Educational purpose [Website](https://the-codecare.netlify.app/)
 
-This site works to teaching Programming Languages
-1. There are a multiple Programming Languages.
-2. All lessons are beginner friendly.
-3. When you start lessons then you will be contact with us any time 24hours.
+- There were multiple Programming Languages cards.
+- On this site there were four different routes and this site
+was responsive for mobile users.
+- Users could see this site abouts section & contacts
+section in different routes.
